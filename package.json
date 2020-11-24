@@ -1,6 +1,6 @@
 {
   "name": "ipp-printer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a printer on the network",
   "main": "index.js",
   "bin": "./bin.js",
@@ -13,6 +13,7 @@
     "pump": "^1.0.1",
     "rc": "^1.1.6",
     "readable-stream": "^2.0.5",
+    "server-destroy": "^1.0.1",
     "unique-concat": "^0.2.2"
   },
   "devDependencies": {
@@ -37,12 +38,12 @@
     "mdns",
     "multicast"
   ],
-  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "author": "Thomas Watson Steen <w@tson.dk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watson/ipp-printer/issues"
+    "url": "https://github.com/debhash/ipp-printer/issues"
   },
-  "homepage": "https://github.com/watson/ipp-printer",
+  "homepage": "https://github.com/debhash/ipp-printer",
   "coordinates": [
     55.6665721,
     12.5800915
